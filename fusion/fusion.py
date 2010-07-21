@@ -20,7 +20,6 @@ class EventedTestSuite(unittest.TestSuite):
 
 class EventedTextTestRunner(unittest.TextTestRunner):
     def run(self, test, pool=pool):
-        "Run the 0given test case or test suite."
         result = self._makeResult()
         startTime = time.time()
         test(result)
