@@ -1,0 +1,1 @@
+An eventlet based version of the python unittest module. Used primarily as a means of speeding up integration testing while using a familiar framework.
